@@ -63,6 +63,8 @@ public class MainActivity extends AppCompatActivity {
                 }else{
                     editTextHeading.setError("Heading can't be empty!");
                 }
+                editTextContent.setText("");
+                editTextHeading.setText("");
             }
         });
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
